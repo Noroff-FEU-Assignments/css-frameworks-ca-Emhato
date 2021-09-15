@@ -1,0 +1,40 @@
+// carousel
+
+.caro {
+
+    height: 400px;
+
+    &__image {
+        background-position: center center;
+        background-size: cover;
+        height: 400px;
+    }
+
+    &__btn {
+        height: 30px !important;
+        // color: getColor(lightest) !important;
+        // opacity: 100% !important;
+    }
+
+    // &__btn--active {
+    //     color: red !important;
+    // }
+}
+
+// text
+
+.home-h1 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.home-h1, .home-p {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.home-p {
+    margin-bottom: 60px;
+}
+
+// Accordion

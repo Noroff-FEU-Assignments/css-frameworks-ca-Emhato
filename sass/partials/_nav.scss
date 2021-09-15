@@ -1,0 +1,49 @@
+.nav {
+    background-color: getColor(top-nav);
+
+    &__logo {
+        color: getColor(logo-color);
+        font-family: $logo-font;
+        font-weight: 700;
+        font-style: italic;
+        margin-left: 5%;
+    }
+
+    &__a {
+        color: getColor(dark);
+        border-radius: 3px;
+        padding: 0;
+        margin-left: 30px;
+    }
+
+    &__a--active {
+        background-color: getColor(lightest);
+    }
+
+    &__search {
+        border: none;
+    }
+
+    &__search-btn {
+        background-color: getColor(logo-color);
+        border: none;
+        color: getColor(lightest);
+        margin-right: 5%;
+        margin-left: -12px;
+        border-radius: 0 3px 3px 0;
+
+    }
+}
+
+// .caro {
+
+//     // max-height: 400px;
+
+//     &__image {
+//         background-position: center center;
+//         background-size: contain;
+//         // height: 100px;
+//         // width: 200px;
+//         // background-repeat: no-repeat;
+//     }
+// }

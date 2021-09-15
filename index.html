@@ -4,54 +4,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">The YAY Company</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+        <nav class="navbar navbar-expand-lg nav">
+            <div class="container-fluid nav__container">
+              <a class="navbar-brand nav__logo" href="index.html">The YAY Company</a>
+              <button class="navbar-toggler nav__burger-btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon nav__burger-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav__ul">
+                        <li class="nav-item nav__li">
+                            <a class="nav-link active nav__a nav__a--active" aria-current="page" href="index.html">Home</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="news.html">News</a>
+                        <li class="nav-item nav__li">
+                            <a class="nav-link nav__a" href="news.html">News</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
+                        <li class="nav-item nav__li">
+                            <a class="nav-link nav__a" href="contact.html">Contact</a>
                         </li>
                     </ul>
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Go</button>
+                    <form class="d-flex nav__search-form">
+                        <input class="form-control me-2 nav__search" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success nav__search-btn" type="submit">Go</button>
                     </form>
               </div>
             </div>
         </nav>
     </header>
     <main>
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <div id="carouselExampleIndicators" class="carousel slide caro" data-bs-ride="carousel">
+            <div class="carousel-indicators caro__btns">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active caro__btn caro__btn--active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="caro__btn" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="caro__btn" aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner ratio ratio-21x9">
-                <div class="carousel-item active" style="background-image: url(Carousel-images/carousel-1.jpg);"></div>
-                <div class="carousel-item" style="background-image: url(Carousel-images/carousel-2.jpg);"></div>
-                <div class="carousel-item" style="background-image: url(Carousel-images/carousel-3.jpg);"></div>
+                <div class="carousel-item active caro__image caro__image--active" style="background-image: url(Carousel-images/carousel-1.jpg);"></div>
+                <div class="carousel-item caro__image" style="background-image: url(Carousel-images/carousel-2.jpg);"></div>
+                <div class="carousel-item caro__image" style="background-image: url(Carousel-images/carousel-3.jpg);"></div>
             </div>
         </div>
 
-        <h1>We do YAY things</h1>
-        <p>Nam tincidunt, sapien nec congue porta, tellus risus ullamcorper mi, a rutrum justo eros pretium 
+        <h1 class="home-h1">We do YAY things</h1>
+        <p class="home-p">Nam tincidunt, sapien nec congue porta, tellus risus ullamcorper mi, a rutrum justo eros pretium 
             libero. Nullam vel enim id mauris eleifend finibus et ac orci. Aliquam metus massa, aliquam quis 
             arcu sit amet, consectetur faucibus urna. Suspendisse massa diam, efficitur eu massa euismod, pretium 
             lacinia magna. Donec mi orci, sollicitudin in luctus a, varius eget massa.

@@ -1,0 +1,130 @@
+body,
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background: white;
+  background: radial-gradient(circle, white 0%, #e5e5e5 100%);
+}
+
+p {
+  color: #767676;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  color: #E92569;
+}
+
+.nav {
+  background-color: #EFEFEF;
+}
+
+.nav__logo {
+  color: #E92569;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-style: italic;
+  margin-left: 5%;
+}
+
+.nav__a {
+  color: #0A0A0A;
+  border-radius: 3px;
+  padding: 0;
+  margin-left: 30px;
+}
+
+.nav__a--active {
+  background-color: #fff;
+}
+
+.nav__search {
+  border: none;
+}
+
+.nav__search-btn {
+  background-color: #E92569;
+  border: none;
+  color: #fff;
+  margin-right: 5%;
+  margin-left: -12px;
+  border-radius: 0 3px 3px 0;
+}
+
+.caro {
+  height: 400px;
+}
+
+.caro__image {
+  background-position: center center;
+  background-size: cover;
+  height: 400px;
+}
+
+.caro__btn {
+  height: 30px !important;
+}
+
+.home-h1 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.home-h1, .home-p {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.home-p {
+  margin-bottom: 60px;
+}
+
+.news-h1 {
+  margin-left: 5%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.page-numbers {
+  margin-left: 5%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.page-numbers__link {
+  color: #E92569;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #E92569;
+}
+
+.cards {
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.cards__img {
+  border-radius: 10px 10px 0 0;
+}
+
+.cards__btn {
+  font-size: 0.8rem;
+  background: #E92569;
+  border: none;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.cards__btn:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 10px;
+  height: 100%;
+  background: purple;
+}
+/*# sourceMappingURL=style.css.map */

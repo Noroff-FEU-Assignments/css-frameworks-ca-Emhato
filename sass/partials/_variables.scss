@@ -1,0 +1,30 @@
+// font-family: 'Lato', sans-serif;
+// font-family: 'Playfair Display', serif;
+
+$font: 'Lato', sans-serif;
+$logo-font: 'Playfair Display', serif;
+
+
+$colors: (
+    logo-color: #E92569,
+    bottom-nav-text: #767676,
+    top-nav: #EFEFEF,
+    dark: #0A0A0A,
+    lightest: #fff,
+    back-ground: rgb(255,255,255),
+    gradient: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(229,229,229,1) 100%),
+    nav-back-ground: rgb(229,229,229),
+    nav-gradient: radial-gradient(circle, rgba(229,229,229,1) 0%, rgba(255,255,255,1) 100%),
+);
+
+// background: rgb(229,229,229);
+// background: radial-gradient(circle, rgba(229,229,229,1) 0%, rgba(255,255,255,1) 100%);
+
+// background: rgb(255,255,255);
+// background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(229,229,229,1) 100%);
+
+$tablet-width: 768px;
+
+@function getColor($color) {
+    @return map-get($map: $colors, $key: $color);
+}
