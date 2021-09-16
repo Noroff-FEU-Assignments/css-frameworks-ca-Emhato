@@ -54,14 +54,18 @@ h1 {
   border-radius: 0 3px 3px 0;
 }
 
+.nav__burger-btn {
+  color: #E92569;
+}
+
 .caro {
-  height: 400px;
+  max-height: 400px;
 }
 
 .caro__image {
   background-position: center center;
   background-size: cover;
-  height: 400px;
+  max-height: 400px;
 }
 
 .caro__btn {
@@ -82,14 +86,66 @@ h1 {
   margin-bottom: 60px;
 }
 
+.acco {
+  max-width: 80%;
+  margin: auto;
+}
+
+.acco__socials {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+}
+
+.acco__socials__item {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.acco__btn {
+  color: #E92569;
+}
+
+.tab {
+  max-width: 90%;
+  margin: auto;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.tab__img {
+  background-position: center center;
+  background-size: cover;
+  width: 75%;
+  height: 75%;
+  margin-left: 30px;
+}
+
+.tab__content {
+  margin-top: 30px;
+}
+
+.tab__socials__item {
+  margin-right: 10px;
+}
+
+.tab__btn {
+  color: #E92569;
+  margin-bottom: -5px;
+}
+
 .news-h1 {
-  margin-left: 5%;
+  margin-left: 8%;
   margin-top: 30px;
   margin-bottom: 30px;
 }
 
 .page-numbers {
-  margin-left: 5%;
+  margin-left: 8%;
   margin-top: 40px;
   margin-bottom: 40px;
 }
@@ -103,6 +159,7 @@ h1 {
 
 .cards {
   border-radius: 10px;
+  margin: auto;
   margin-bottom: 40px;
 }
 
@@ -110,21 +167,27 @@ h1 {
   border-radius: 10px 10px 0 0;
 }
 
-.cards__btn {
-  font-size: 0.8rem;
-  background: #E92569;
-  border: none;
-  text-transform: uppercase;
-  position: relative;
+.contact-info__icon {
+  width: 30px;
+  background-color: pink;
 }
 
-.cards__btn:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 10px;
-  height: 100%;
-  background: purple;
+.contact-info__item {
+  width: 150px;
+  background-color: pink;
+}
+
+.form {
+  background-color: #EFEFEF;
+  max-width: 555px;
+  padding: 40px;
+}
+
+.form__input {
+  border: none;
+}
+
+.form__legal {
+  color: #767676;
 }
 /*# sourceMappingURL=style.css.map */

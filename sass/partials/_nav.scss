@@ -33,7 +33,12 @@
         border-radius: 0 3px 3px 0;
 
     }
+
+    &__burger-btn {
+        color: getColor(logo-color);
+    }
 }
+
 
 // .caro {
 

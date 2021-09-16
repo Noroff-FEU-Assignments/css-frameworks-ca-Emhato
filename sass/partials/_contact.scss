@@ -1,0 +1,36 @@
+// contact info
+
+.contact-info {
+
+    
+
+    &__icon {
+        width: 30px;
+        background-color: pink;
+    }
+
+    &__item {
+        width: 150px;
+        background-color: pink;
+    }
+}
+
+//form 
+
+.form {
+    background-color: getColor(top-nav);
+    max-width: 555px;
+    padding: 40px;
+
+    &__input {
+        border: none;
+    }
+
+    &__legal {
+        color: getColor(bottom-nav-text);
+    }
+
+    // &__checkbox {
+    //     color: getColor(logo-color);
+    // }
+}

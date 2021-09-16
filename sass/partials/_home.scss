@@ -2,12 +2,12 @@
 
 .caro {
 
-    height: 400px;
+    max-height: 400px;
 
     &__image {
         background-position: center center;
         background-size: cover;
-        height: 400px;
+        max-height: 400px;
     }
 
     &__btn {
@@ -38,3 +38,81 @@
 }
 
 // Accordion
+
+.acco {
+
+    max-width: 80%;
+    margin: auto;
+    // flex-direction: column;
+    // align-self: center;
+
+    // &__header {
+    //     color: getColor(logo-color);
+    //     background-color: getColor(lightest);
+    // }
+
+    // &__body {
+    //     box-shadow: #000 60%;
+    // }
+
+    &__socials {
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    &__socials__item {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    &__btn {
+        color: getColor(logo-color);
+    }
+
+}
+
+
+// Tabs
+
+.tab {
+    max-width: 90%;
+    margin: auto;
+    background-color: getColor(lightest);
+    border-radius: 10px;
+    // max-height: 300px;
+
+    &__img {
+        background-position: center center;
+        background-size: cover;
+        // width: 238px;
+        // height: 149px;
+        width: 75%;
+        height: 75%;
+        margin-left: 30px;
+        // position: unset;
+        // top: unset;
+        // left: unset;
+
+    }
+
+    // &__img-box {
+    //     // margin-right: 0px;
+    //     // margin-bottom: 0px;
+    //     width: max-content;
+    // }
+
+    &__content {
+        margin-top: 30px;
+        // align-items: center;
+    }
+
+    &__socials__item {
+        margin-right: 10px;
+    }
+
+    &__btn {
+        color: getColor(logo-color);
+        margin-bottom: -5px;
+    }
+}
