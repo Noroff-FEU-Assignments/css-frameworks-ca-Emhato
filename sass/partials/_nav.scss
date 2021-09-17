@@ -2,6 +2,10 @@
     background-color: getColor(top-nav);
     color: getColor(logo-color);
 
+    .navbar-brand {
+        color: getColor(logo-color);
+    }
+
     &__logo {
         color: getColor(logo-color);
         font-family: $logo-font;
@@ -40,16 +44,9 @@
     }
 }
 
+.navbar-toggler {
+    border: none;
+}
 
-// .caro {
 
-//     // max-height: 400px;
 
-//     &__image {
-//         background-position: center center;
-//         background-size: contain;
-//         // height: 100px;
-//         // width: 200px;
-//         // background-repeat: no-repeat;
-//     }
-// }

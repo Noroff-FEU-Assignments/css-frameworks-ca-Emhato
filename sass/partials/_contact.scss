@@ -1,17 +1,38 @@
 // contact info
 
-.contact-info {
+// .contact-info {
 
     
 
+//     &__icon {
+//         width: 30px;
+//         background-color: pink;
+//     }
+
+//     &__item {
+//         width: 150px;
+//         background-color: pink;
+//     }
+// }
+
+.contact {
+    // margin-left: 8%;
+    margin-top: 30px;
+    margin-bottom: 40px;
+
     &__icon {
-        width: 30px;
-        background-color: pink;
+        margin-right: 30px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        color: getColor(bottom-nav-text);
     }
 
-    &__item {
-        width: 150px;
-        background-color: pink;
+    &__lineheight {
+        line-height: 10px;
+    }
+
+    &__info {
+        margin-top: 20px;
     }
 }
 
@@ -19,7 +40,7 @@
 
 .form {
     background-color: getColor(top-nav);
-    max-width: 555px;
+    // max-width: 555px;
     padding: 40px;
 
     &__input {
@@ -33,4 +54,11 @@
     // &__checkbox {
     //     color: getColor(logo-color);
     // }
+}
+
+// header
+
+.contact-h1 {
+    margin-left: 8%;
+    margin-bottom: 30px;
 }
