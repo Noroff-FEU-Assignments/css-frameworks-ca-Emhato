@@ -237,6 +237,26 @@ h1 {
   border-radius: 10px 10px 0 0;
 }
 
+.cards__btn {
+  font-size: 0.8rem;
+  background: #E92569;
+  border: none;
+  text-transform: uppercase;
+  position: relative;
+  width: 100%;
+}
+
+.cards__btn:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 20px;
+  height: 100%;
+  background: #767676;
+  border-radius: 0 3px 3px 0;
+}
+
 .contact {
   margin-left: 8%;
   margin-top: 30px;
@@ -270,6 +290,22 @@ h1 {
 
 .form__legal {
   color: #767676;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.form__btn {
+  background-color: #767676;
+  border: none;
+  width: 100%;
+}
+
+.form__checkbox {
+  background-color: #E92569;
+  height: 30px;
+  width: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .contact-h1 {

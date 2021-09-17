@@ -36,21 +36,27 @@
     // }
 
 
-    // &__btn {
-    //     font-size: 0.8rem;
-    //     background: getColor(logo-color);
-    //     border: none;
-    //     text-transform: uppercase;
-    //     position: relative;
-    // }
+    &__btn {
+        font-size: 0.8rem;
+        background: getColor(logo-color);
+        border: none;
+        text-transform: uppercase;
+        position: relative;
+        width: 100%;
+    }
 
-    // &__btn:before {
-    //     content: "";
-    //     position: absolute;
-    //     left: 0;
-    //     top: 0;
-    //     width: 10px;
-    //     height: 100%;
-    //     background: purple;
-    // }
+    &__btn:after {
+        content: "";
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 20px;
+        height: 100%;
+        background: getColor(bottom-nav-text);
+        border-radius: 0 3px 3px 0;
+    }
 }
+
+// .cards-btn {
+//     color: red;
+// }
