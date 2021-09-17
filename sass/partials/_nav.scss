@@ -17,16 +17,24 @@
     &__a {
         color: getColor(dark);
         border-radius: 3px;
-        padding: 0;
         margin-left: 30px;
+        padding: 5px;
+        width: 100%;
+        margin-bottom: 30px;
     }
 
-    &__a--active {
+    &__li {
+        height: 40px;
+        margin-top: 20px;
+    }
+
+    &__li--active {
         background-color: getColor(lightest);
     }
 
     &__search {
         border: none;
+        width: 330px;
     }
 
     &__search-btn {
@@ -49,4 +57,27 @@
 }
 
 
+@media only screen and (min-width: 768px) {
+    .nav {
 
+        &__li {
+            height: unset;
+            margin-top: unset;
+        }
+
+        &__a--active {
+            background-color: getColor(lightest);
+        }
+
+        &__li--active {
+            background-color: unset;
+        }
+
+        &__a {
+            padding: unset;
+            width: unset;
+            margin-bottom: unset;
+            padding-left: 20px;
+        }
+    }
+}

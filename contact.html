@@ -22,13 +22,13 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav__ul">
                         <li class="nav-item nav__li">
-                            <a class="nav-link nav__a nav__a--active" aria-current="page" href="index.html">Home</a>
+                            <a class="nav-link nav__a" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item nav__li">
                             <a class="nav-link nav__a" href="news.html">News</a>
                         </li>
-                        <li class="nav-item nav__li">
-                            <a class="nav-link active nav__a" href="contact.html">Contact</a>
+                        <li class="nav-item nav__li nav__li--active">
+                            <a class="nav-link active nav__a nav__a--active" href="contact.html">Contact</a>
                         </li>
                     </ul>
                     <form class="d-flex nav__search-form">
@@ -41,81 +41,59 @@
     </header>
     <main>
 
-        <div class="row">
-        
-            <!-- <div class="info-container order-md-3 contact-info">
-                <ul class="list-group list-group-horizontal">
-                    <li class="list-group-item contact-info__icon"><i class="fas fa-envelope"></i></li>
-                    <li class="list-group-item contact-info__item">hello@yay.com</li>
-                </ul>
-                <ul class="list-group list-group-horizontal-sm">
-                    <li class="list-group-item contact-info__icon"><i class="fas fa-phone"></i></li>
-                    <li class="list-group-item contact-info__item">123 456 7890</li>
-                </ul>
-                <ul class="list-group list-group-horizontal-md">
-                    <li class="list-group-item contact-info__icon"><i class="fas fa-map-marker-alt"></i></li>
-                    <li class="list-group-item contact-info__item">123 Some Street
-                        Somewhere
-                        Some City
-                        10000</li>
-                </ul>
-            </div> -->
 
+        <h1 class="d-none d-md-block contact-h1">Submit your details</h1>
 
-            <!-- <div class="info d-md-flex"> -->
+        <div class="info d-md-flex">
 
-                <div class="contact order-md-3">
-                    <div class="contact__mail d-flex">
-                        <span><i class="fas fa-envelope fa-2x contact__icon"></i></span>
-                        <span class="contact__info"><p>hello@yay.com</p></span>
-                    </div>
-                    <div class="contact__phone d-flex">
-                        <span><i class="fas fa-phone fa-2x contact__icon"></i></span>
-                        <span class="contact__info"><p>123 456 7890</p></span>
-                    </div>
-                    <div class="contact__adress d-flex">
-                        <span><i class="fas fa-map-marker-alt fa-2x contact__icon"></i></span>
-                        <span class="contact__info"><p class="contact__lineheight">123 Some Street</p> <p class="contact__lineheight">Somewhere</p> <p class="contact__lineheight">City</p> <p class="contact__lineheight">10000</p></span>
-                    </div>
-
+            <div class="contact order-md-3">
+                <div class="contact__mail d-flex">
+                    <span><i class="fas fa-envelope fa-2x contact__icon"></i></span>
+                    <span class="contact__info"><p>hello@yay.com</p></span>
+                </div>
+                <div class="contact__phone d-flex">
+                    <span><i class="fas fa-phone fa-2x contact__icon"></i></span>
+                    <span class="contact__info"><p>123 456 7890</p></span>
+                </div>
+                <div class="contact__adress d-flex">
+                    <span><i class="fas fa-map-marker-alt fa-2x contact__icon"></i></span>
+                    <span class="contact__info"><p class="contact__lineheight">123 Some Street</p> <p class="contact__lineheight">Somewhere</p> <p class="contact__lineheight">City</p> <p class="contact__lineheight">10000</p></span>
                 </div>
 
-                <h1 class="order-md-1 contact-h1">Submit your details</h1>
+            </div>
 
-                <form class="order-md-2 form">
-                    <div class="mb-3 form__content">
+            <h1 class="d-md-none contact-h1">Submit your details</h1>
+
+            <form class="order-md-2 form">
+                <div class="mb-3 form__content">
                     <label for="exampleInputEmail1" class="form-label">Name</label>
                     <input type="text" class="form-control form__input" id="exampleInputName">
-                    </div>
+                </div>
 
-                    <div class="mb-3 form__content">
-                        <label for="exampleInputEmail1" class="form-label">Email address</label>
-                        <input type="email" class="form-control form__input" id="exampleInputEmail1">
-                    </div>
+                <div class="mb-3 form__content">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control form__input" id="exampleInputEmail1">
+                </div>
 
-                    <label for="basic-url" class="form-label">Website</label>
-                    <div class="input-group mb-3 form__content">
+                <label for="basic-url" class="form-label">Website</label>
+                <div class="input-group mb-3 form__content">
                     <span class="input-group-text" id="basic-addon3">https://</span>
                     <input type="text" class="form-control form__input" id="basic-url" aria-describedby="basic-addon3">
-                    </div>
+                </div>
 
-                    <div class="mb-3 form__content">
-                        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                        <textarea class="form-control form__input" id="exampleFormControlTextarea1" rows="6"></textarea>
-                    </div>
+                <div class="mb-3 form__content">
+                    <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                    <textarea class="form-control form__input" id="exampleFormControlTextarea1" rows="6"></textarea>
+                </div>
 
-                    <div class="mb-3 form-check form__content">
+                <div class="mb-3 form-check form__content">
                     <input type="checkbox" class="form-check-input form__input form__checkbox" id="exampleCheck1">
                     <label class="form-check-label form__legal" for="exampleCheck1">Allow us to sell your personal details to whomever we want</label>
-                    </div>
-                    <button type="submit" class="btn btn-primary form__btn">Submit</button>
-                </form>
-
-            <!-- </div> -->
+                </div>
+                <button type="submit" class="btn btn-primary form__btn">Submit</button>
+            </form>
 
         </div>
-
-
 
     </main>
     <footer class="mini-footer d-flex d-md-none">
