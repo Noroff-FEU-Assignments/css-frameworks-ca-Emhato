@@ -140,6 +140,16 @@ h1 {
 
 .caro__btn {
   height: 30px !important;
+  background-color: #fff !important;
+  opacity: 100% !important;
+}
+
+.caro__btn.active {
+  background-color: #E92569 !important;
+}
+
+.carousel .carousel-inner .active {
+  background-color: #E92569;
 }
 
 .home-h1 {

@@ -12,14 +12,36 @@
 
     &__btn {
         height: 30px !important;
-        // color: getColor(lightest) !important;
-        // opacity: 100% !important;
+
+        background-color: getColor(lightest) !important;
+        opacity: 100% !important;
+
+        &.active {
+            background-color: getColor(logo-color) !important;
+        }
     }
+
+
+
+    // &__btn:active {
+    //     background-color: red;
+    // }
+
+
 
     // &__btn--active {
     //     color: red !important;
     // }
 }
+
+.carousel .carousel-inner .active{
+
+    background-color: getColor(logo-color);
+} 
+
+// .carousel-inner .active {
+//     background-color: red;
+// } 
 
 // text
 
