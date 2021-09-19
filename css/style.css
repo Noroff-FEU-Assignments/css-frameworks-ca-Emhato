@@ -200,6 +200,7 @@ h1 {
 .acco__btn:not(.collapsed) {
   background-color: #fff;
   color: #E92569;
+  border-bottom: solid 1px #E92569;
 }
 
 .acco__btn::after {
@@ -250,6 +251,11 @@ h1 {
   color: #E92569;
   border-style: solid;
   border-width: 1px;
+  border-color: #E92569;
+}
+
+.page-item.active .page-link {
+  background-color: #E92569;
   border-color: #E92569;
 }
 

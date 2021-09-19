@@ -20,28 +20,12 @@
             background-color: getColor(logo-color) !important;
         }
     }
-
-
-
-    // &__btn:active {
-    //     background-color: red;
-    // }
-
-
-
-    // &__btn--active {
-    //     color: red !important;
-    // }
 }
 
 .carousel .carousel-inner .active{
 
     background-color: getColor(logo-color);
 } 
-
-// .carousel-inner .active {
-//     background-color: red;
-// } 
 
 // text
 
@@ -66,19 +50,8 @@
     max-width: 80%;
     margin: auto;
     box-shadow: 3px 3px 3px #e5e5e5;
-    // flex-direction: column;
-    // align-self: center;
-
-    // &__header {
-    //     color: getColor(logo-color);
-    //     background-color: getColor(lightest);
-    // }
 
     &__body {
-        // background: getColor(back-ground);
-        // background: getColor(gradient);
-        // background: rgb(244,244,244);
-        // background: radial-gradient(circle, rgba(244,244,244,1) 0%, rgba(255,255,255,1) 100%);
         background: rgb(233,233,233);
         background: radial-gradient(circle, rgba(233,233,233,1) 0%, rgba(255,255,255,1) 100%);
     }
@@ -98,14 +71,10 @@
         color: getColor(logo-color);
     }
 
-    // &__header {
-    //     border-bottom: getColor(logo-color);
-    // }
-
     &__btn:not(.collapsed) {
         background-color: getColor(lightest);
         color: getColor(logo-color);
-        // border-bottom: solid 1px getColor(logo-color);
+        border-bottom: solid 1px getColor(logo-color);
     }
 
     &__btn::after {
@@ -122,31 +91,17 @@
     margin: auto;
     background-color: getColor(lightest);
     border-radius: 10px;
-    // max-height: 300px;
 
     &__img {
         background-position: center center;
         background-size: cover;
-        // width: 238px;
-        // height: 149px;
         width: 75%;
         height: 75%;
         margin-left: 30px;
-        // position: unset;
-        // top: unset;
-        // left: unset;
-
     }
-
-    // &__img-box {
-    //     // margin-right: 0px;
-    //     // margin-bottom: 0px;
-    //     width: max-content;
-    // }
 
     &__content {
         margin-top: 30px;
-        // align-items: center;
     }
 
     &__socials__item {

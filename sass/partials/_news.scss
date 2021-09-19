@@ -15,9 +15,11 @@
         border-width: 1px;
         border-color: getColor(logo-color);
     }
+}
 
-
-
+.page-item.active .page-link{
+    background-color: getColor(logo-color);
+    border-color: getColor(logo-color);
 }
 
 //card
@@ -30,10 +32,6 @@
     &__img {
         border-radius: 10px 10px 0 0;
     }
-
-    // &__btn {
-    //     background-color: red !important;
-    // }
 
 
     &__btn {
@@ -56,7 +54,3 @@
         border-radius: 0 3px 3px 0;
     }
 }
-
-// .cards-btn {
-//     color: red;
-// }
